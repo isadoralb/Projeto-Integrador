@@ -38,5 +38,18 @@ a.btn{
 
 img{
     width: 840px;
-    height:560px;px;
+    height:560px;
+}
+
+.logo{
+    width: 300px;
+    height:300px ;
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+img{
+    border: white;
 }
