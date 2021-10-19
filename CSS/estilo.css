@@ -45,20 +45,22 @@ img{
 
 /* Sobre Nós  e  Rodapé */
 footer.rodape{
-    background-color: aquamarine;
+    background-color: whitesmoke;
     height: 400px;
 }
 
 .idosos{
-    border: white;
+
     width: 300px;
     height: 300px;
-    margin-top: 2%;
+    margin-top: 50px;
     margin-left: 15%;
+    background-color: whitesmoke;
 }
 
 h4{
     text-align: center;
+<<<<<<< HEAD
 }
 
 
@@ -80,4 +82,19 @@ h4{
 
 h1{
     margin: 70px;
+=======
+    font-style: unset;
+}
+
+.tel{
+    margin-top: 50px 
+}
+
+.email{
+    margin-top: 50px;
+}
+
+h6.azul{
+    color:rgb(228, 255, 235);
+>>>>>>> 2c68aee969be246d4a3b855b1f88d2dc9ea19a60
 }
