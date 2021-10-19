@@ -1,3 +1,5 @@
+/* Cadastro */
+
 body{
     background-color: #F4F4F4;
 }
@@ -41,7 +43,7 @@ img{
     height:560px;
 }
 
-
+/* Sobre Nós  e  Rodapé */
 footer.rodape{
     background-color: aquamarine;
     height: 400px;
@@ -57,4 +59,25 @@ footer.rodape{
 
 h4{
     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contato */
+
+h1{
+    margin: 70px;
 }
