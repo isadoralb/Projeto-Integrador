@@ -82,3 +82,11 @@ h4{
 h1{
     margin: 70px;
 }
+
+.texto{
+    text-align: center;
+}
+
+button.btn{
+    text-align: center;
+}
