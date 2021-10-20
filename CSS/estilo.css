@@ -4,6 +4,10 @@ body{
     background-color: #F4F4F4;
 }
 
+.clear{
+    clear: both;
+}
+
 .menu{
     float: right;
 }
