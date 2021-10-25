@@ -52,8 +52,8 @@ img.casal{
     width: 500px;
 }
 
-footer.rodape{
-    margin-top: 40px;
+.rodape{
+    margin-top: 500px;
     background-color: whitesmoke;
     height: 150px;
     border: 5px solid #25D366;
@@ -67,6 +67,32 @@ footer{
     height: 300px;
     margin-left: 15%;
     background-color: whitesmoke;
+}
+
+/*fotos dos desenvolvedores*/
+
+img.ash{
+    width: 100px;
+}
+
+img.soph{
+    width: 100px;
+}
+
+img.lincoln{
+    width: 100px;
+}
+
+h5.text{
+    text-align: center;
+}
+
+h5.direitos{
+    margin-top: 15px;
+}
+
+section.nos{
+    margin-top: 50px;
 }
 
 .col{
