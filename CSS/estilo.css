@@ -28,8 +28,8 @@ input.btn{
 }
 
 a.btn{
-    margin-top: 17px;
-    width: 250px;
+    margin-top: 20px;
+    width: 270px;
     height: 40px;
 }
 
@@ -38,12 +38,14 @@ a.btn{
     width: 100px;
 }
 
-img.velho{
+img.velhologo{
     height: 500px;
+    margin-left: 50px;
 }
 
 h4.txtinicio{
     text-align: center;
+    margin-left: 50px;
 }
 
 a.senha{
@@ -53,7 +55,7 @@ a.senha{
 /* Sobre Nós  e  Rodapé */
 
 img.casal{
-    width: 500px;
+    width: 600px;
 }
 
 .rodape{
@@ -73,17 +75,43 @@ footer{
     background-color: whitesmoke;
 }
 
+div.esqueci button{
+    width: 555px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+div.esqueci input{
+    width: 556px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+/* login */
+div.login button{
+    width: 545px;
+    margin-top: 20px;
+}
+
+div.login input{
+    width: 545px;
+    margin-top: 20px;
+}
 /*fotos dos desenvolvedores*/
 
 img.ash{
-    width: 100px;
+    width: 142px;
 }
 
 img.soph{
-    width: 100px;
+    width: 134px;
 }
 
 img.lincoln{
+    width: 100px;
+}
+
+img.maria{
     width: 100px;
 }
 
@@ -105,6 +133,7 @@ section.nos{
 
 h5{
     text-align: center;
+    padding-right: 30px;
 }
 /* Contato */
 
@@ -118,4 +147,14 @@ h1{
 
 button.btn{
     text-align: center;
+}
+
+div.ctt button{
+    width: 555px;
+    margin-top: 20px;
+}
+
+div.ctt input{
+    width: 556px;
+    margin-top: 20px;
 }
