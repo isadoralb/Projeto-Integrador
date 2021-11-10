@@ -1,5 +1,11 @@
+/* Cadastro */
+
 body{
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
+}
+
+.clear{
+    clear: both;
 }
 
 .menu{
@@ -11,22 +17,144 @@ h1{
     font-size: 50px;
 }
 
-h2{
-    font-size: 63px;
-}
-
-button{
-    width: 220px;
+button.btn{
+    width: 267px;
     height: 70px;
 }
 
 input.btn{
-    width: 223px;
+    width: 267px;
     height: 70px;   
 }
 
 a.btn{
-    margin-top: 17px;
-    width: 250px;
+    margin-top: 20px;
+    width: 270px;
     height: 40px;
+}
+
+.logotipo{
+    height: 100px;
+    width: 100px;
+}
+
+img.velhologo{
+    height: 500px;
+    margin-left: 50px;
+}
+
+h4.txtinicio{
+    text-align: center;
+    margin-left: 50px;
+}
+
+a.senha{
+    font-size: 18px;
+}
+
+/* Sobre Nós  e  Rodapé */
+
+img.casal{
+    width: 600px;
+}
+
+.rodape{
+    margin-top: 500px;
+    background-color: whitesmoke;
+    height: 150px;
+    border: 5px solid #25D366;
+}
+
+footer{
+    padding: 10px;
+}
+.idosos{
+    width: 300px;
+    height: 300px;
+    margin-left: 15%;
+    background-color: whitesmoke;
+}
+
+div.esqueci button{
+    width: 555px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+div.esqueci input{
+    width: 556px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+/* login */
+div.login button{
+    width: 545px;
+    margin-top: 20px;
+}
+
+div.login input{
+    width: 545px;
+    margin-top: 20px;
+}
+/*fotos dos desenvolvedores*/
+
+img.ash{
+    width: 142px;
+}
+
+img.soph{
+    width: 134px;
+}
+
+img.lincoln{
+    width: 100px;
+}
+
+img.maria{
+    width: 100px;
+}
+
+h5.text{
+    text-align: center;
+}
+
+h5.direitos{
+    margin-top: 15px;
+}
+
+section.nos{
+    margin-top: 50px;
+}
+
+.col{
+    margin-top: 25px;
+}
+
+h5{
+    text-align: center;
+    padding-right: 30px;
+}
+/* Contato */
+
+h1{
+    margin: 70px;
+}
+
+.texto{
+    text-align: center;
+}
+
+button.btn{
+    text-align: center;
+}
+
+div.ctt button{
+    width: 555px;
+    margin-top: 20px;
+}
+
+div.ctt input{
+    width: 556px;
+    margin-top: 20px;
 }
