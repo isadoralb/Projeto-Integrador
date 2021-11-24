@@ -86,6 +86,7 @@ div.esqueci input{
 }
 
 /* login */
+
 div.login button{
     width: 545px;
     margin-top: 20px;
@@ -122,7 +123,7 @@ h5.direitos{
 }
 
 section.nos{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .col{
