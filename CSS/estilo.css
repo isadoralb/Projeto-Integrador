@@ -1,7 +1,7 @@
 /* Cadastro */
 
 body{
-    background-color: #f4f4f4;
+    background-color: rgba(255, 226, 198, 0.507);
 }
 
 .clear{
@@ -56,6 +56,7 @@ a.senha{
 
 img.casal{
     width: 600px;
+    border: 10px solid rgba(255, 226, 198, 0.507); 
 }
 
 .rodape{
@@ -100,18 +101,22 @@ div.login input{
 
 img.ash{
     width: 142px;
+    border: 10px solid rgba(255, 226, 198, 0.507);
 }
 
 img.soph{
     width: 134px;
+    border: 10px solid rgba(255, 226, 198, 0.507);
 }
 
 img.lincoln{
     width: 100px;
+    border: 10px solid rgba(255, 226, 198, 0.507);
 }
 
 img.maria{
     width: 100px;
+    border: 10px solid rgba(255, 226, 198, 0.507);
 }
 
 h5.text{
