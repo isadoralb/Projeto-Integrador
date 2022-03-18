@@ -8,10 +8,6 @@ body{
     clear: both;
 }
 
-.menu{
-    float: right;
-}
-
 h1{
     text-align: center;
     font-size: 50px;
@@ -97,25 +93,21 @@ div.login input{
     width: 545px;
     margin-top: 20px;
 }
-/*fotos dos desenvolvedores*/
+/*fotos dos desenvolvedores/Logo instagram */
+
 
 img.ash{
-    width: 142px;
-    border: 10px solid rgba(255, 226, 198, 0.507);
-}
-
-img.soph{
-    width: 134px;
+    width: 203px;
     border: 10px solid rgba(255, 226, 198, 0.507);
 }
 
 img.lincoln{
-    width: 100px;
+    width: 150px;
     border: 10px solid rgba(255, 226, 198, 0.507);
 }
 
 img.maria{
-    width: 100px;
+    width: 150px;
     border: 10px solid rgba(255, 226, 198, 0.507);
 }
 
