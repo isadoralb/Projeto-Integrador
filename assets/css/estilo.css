@@ -1,15 +1,12 @@
 /* Cadastro */
 
 body{
+    overflow-x: hidden;
     background-color: rgba(255, 226, 198, 0.507);
 }
 
 .clear{
     clear: both;
-}
-
-.menu{
-    float: right;
 }
 
 h1{
@@ -86,6 +83,11 @@ div.esqueci input{
     margin-top: 20px;
 }
 
+.tsobre{
+    text-align: center;
+    padding: 30px;
+}
+
 /* login */
 
 div.login button{
@@ -97,25 +99,31 @@ div.login input{
     width: 545px;
     margin-top: 20px;
 }
-/*fotos dos desenvolvedores*/
+/*fotos dos desenvolvedores/Logo instagram */
 
-img.ash{
-    width: 142px;
-    border: 10px solid rgba(255, 226, 198, 0.507);
+.fa-brands{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
 }
 
-img.soph{
-    width: 134px;
+.fa-brands:hover{
+    font-size: 30px;
+    color: rebeccapurple;
+}
+
+img.ash{
+    width: 203px;
     border: 10px solid rgba(255, 226, 198, 0.507);
 }
 
 img.lincoln{
-    width: 100px;
+    width: 150px;
     border: 10px solid rgba(255, 226, 198, 0.507);
 }
 
 img.maria{
-    width: 100px;
+    width: 150px;
     border: 10px solid rgba(255, 226, 198, 0.507);
 }
 
