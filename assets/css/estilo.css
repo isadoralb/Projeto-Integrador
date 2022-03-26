@@ -1,6 +1,7 @@
 /* Cadastro */
 
 body{
+    overflow-x: hidden;
     background-color: rgba(255, 226, 198, 0.507);
 }
 
@@ -8,7 +9,7 @@ body{
     clear: both;
 }
 
-h1{
+h1.titulo{
     text-align: center;
     font-size: 50px;
 }
@@ -57,7 +58,7 @@ img.casal{
 
 .rodape{
     margin-top: 500px;
-    background-color: #32cd74;
+    background-color: rgba(255, 226, 198, 0.507);
     height: 150px;
     border: 5px solid #32cd74;
 }
@@ -82,6 +83,11 @@ div.esqueci input{
     margin-top: 20px;
 }
 
+.tsobre{
+    text-align: center;
+    padding: 30px;
+}
+
 /* login */
 
 div.login button{
@@ -95,6 +101,18 @@ div.login input{
 }
 /*fotos dos desenvolvedores/Logo instagram */
 
+
+
+.fa-brands{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.fa-brands:hover{
+    font-size: 30px;
+    color: rebeccapurple;
+}
 
 img.ash{
     width: 203px;
