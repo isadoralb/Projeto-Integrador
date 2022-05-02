@@ -3,6 +3,10 @@
 body{
     overflow-x: hidden;
     background-color: rgba(255, 226, 198, 0.507);
+    background-image: url('../img/idosos-home.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
 }
 
 .clear{
@@ -10,6 +14,7 @@ body{
 }
 
 h1.titulo{
+    color: #fff;
     text-align: center;
     font-size: 50px;
 }
@@ -26,13 +31,9 @@ input.btn{
 
 a.btn{
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 270px;
     height: 40px;
-}
-
-img.logotipo{
-    height: 100px;
-    width: 100px;
 }
 
 img.velhologo{
@@ -41,6 +42,7 @@ img.velhologo{
 }
 
 h4.txtinicio{
+    color: #fff;
     text-align: center;
     margin-left: 50px;
 }
@@ -48,21 +50,72 @@ h4.txtinicio{
 a.senha{
     font-size: 18px;
 }
+.navbar{
+    border-bottom: 3px solid #fff;
+}
 
-/* Sobre Nós  e  Rodapé */
+.navbar-brand img{
+    width: 150px;
+}
+
+div.logo-header{
+    padding-left: 20%;
+}
+
+a{
+    color: #FF7714;
+}
+
+label{
+    color: #fff;
+}
+
+/* Scroll */
+
+::-webkit-scrollbar{
+    width: 0.7em;
+    height: 0.5em;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 119, 20, .2);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent ;
+}
+
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 226, 198, 0.507);
+    padding: 10px;
+}
+
+.footer-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-info{
+    margin-left: 25%;
+    padding: 20px;
+}
+
+/* Sobre Nós */
 
 img.casal{
     width: 600px;
     border: 10px solid rgba(255, 226, 198, 0.507); 
 }
-
-.rodape{
-    margin-top: 500px;
-    background-color: rgba(255, 226, 198, 0.507);
-    height: 150px;
-    border: 5px solid #32cd74;
-}
-
 
 .idosos{
     width: 300px;
@@ -99,6 +152,15 @@ div.login input{
     width: 545px;
     margin-top: 20px;
 }
+
+a.senha{
+    color: #FF7714;
+}
+
+a.senha:hover{
+    color: #fff;
+}
+
 /*fotos dos desenvolvedores/Logo instagram */
 
 
@@ -130,10 +192,12 @@ img.maria{
 }
 
 h5.text{
+    color: #fff;
     text-align: center;
 }
 
 h5.direitos{
+    color: #fff;
     margin-top: 15px;
 }
 
@@ -146,12 +210,14 @@ section.nos{
 }
 
 h5{
+    color: #fff;
     text-align: center;
     padding-right: 30px;
 }
 /* Contato */
 
 h1{
+    color: #fff;
     margin: 70px;
 }
 
@@ -171,4 +237,12 @@ div.ctt button{
 div.ctt input{
     width: 556px;
     margin-top: 20px;
+}
+
+/* reponsividade do footer */
+
+@media screen and (max-width: 900px){
+    .footer-container{
+        flex-direction: column;
+    }
 }
