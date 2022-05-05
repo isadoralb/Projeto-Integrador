@@ -3,10 +3,11 @@
 body{
     overflow-x: hidden;
     background-color: rgba(255, 226, 198, 0.507);
-    background-image: url('../img/idosos-home.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
     background-size: cover;
+    background-image: url('../img/idosos-home.png');
 }
 
 .clear{
@@ -19,13 +20,18 @@ h1.titulo{
     font-size: 50px;
 }
 
+.button-cadastro{
+    text-align: center;
+    height: 100%;
+}
+
 button.btn{
-    width: 267px;
+    width: 200px;
     height: 70px;
 }
 
 input.btn{
-    width: 267px;
+    width: 200px;
     height: 70px;   
 }
 
@@ -34,11 +40,17 @@ a.btn{
     margin-bottom: 20px;
     width: 270px;
     height: 40px;
+    align-items: center;
 }
 
-img.velhologo{
-    height: 500px;
-    margin-left: 50px;
+.fazer-login{
+    text-align: center;
+}
+
+
+.logo-body{
+    margin-left: 110px;
+    width: 350px;
 }
 
 h4.txtinicio{
@@ -70,55 +82,43 @@ label{
     color: #fff;
 }
 
-/* Scroll */
+/* login */
 
-::-webkit-scrollbar{
-    width: 0.7em;
-    height: 0.5em;
-    background-color: transparent;
+.login{
+    text-align: center;
 }
 
-::-webkit-scrollbar-thumb{
-    background-color: rgba(255, 119, 20, .2);
-    border-radius: 5px;
+div.login button{
+    width: 500px;
+    margin-top: 20px;
 }
 
-::-webkit-scrollbar-track{
-    background-color: transparent ;
+div.login input{
+    width: 500px;
+    margin-top: 20px;
 }
 
-
-/* Footer */
-
-.footer{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 226, 198, 0.507);
-    padding: 10px;
+a.senha{
+    color: #FF7714;
 }
 
-.footer-container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+a.senha:hover{
+    color: #fff;
 }
 
-.footer-info{
-    margin-left: 25%;
-    padding: 20px;
+.fazer-cadasto{
+    text-align: center;
 }
 
 /* Sobre Nós */
 
 img.casal{
-    width: 600px;
+    width: 400px;
     border: 10px solid rgba(255, 226, 198, 0.507); 
 }
 
 .idosos{
-    width: 300px;
+    width: 369px;
     height: 300px;
     margin-left: 15%;
     background-color: whitesmoke;
@@ -139,35 +139,26 @@ div.esqueci input{
 .tsobre{
     text-align: center;
     padding: 30px;
+    color: #fff;
 }
 
-/* login */
-
-div.login button{
-    width: 545px;
-    margin-top: 20px;
+p.title{
+    color: #fff;
 }
 
-div.login input{
-    width: 545px;
-    margin-top: 20px;
+h2.name-sobre{
+    color: #fff;
 }
 
-a.senha{
-    color: #FF7714;
-}
-
-a.senha:hover{
+p.sub-sobre{
     color: #fff;
 }
 
 /*fotos dos desenvolvedores/Logo instagram */
 
-
-
 .fa-brands{
     font-size: 30px;
-    color: black;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -225,24 +216,57 @@ h1{
     text-align: center;
 }
 
+div.ctt{
+    text-align: center;
+}
+
 button.btn{
     text-align: center;
 }
 
 div.ctt button{
-    width: 555px;
+    width: 500px;
     margin-top: 20px;
 }
 
 div.ctt input{
-    width: 556px;
+    width: 500px;
     margin-top: 20px;
 }
 
-/* reponsividade do footer */
+h3.titulo{
+    color: #fff;
+    text-align: center;
+}
 
-@media screen and (max-width: 900px){
-    .footer-container{
-        flex-direction: column;
-    }
+/* Footer */
+
+footer {
+    padding: 10px;
+    margin-top: 50px;
+    padding-top: 40px;
+    background-color: rgba(255, 226, 198, 0.507);
+    width: 100%;
+    height: 100%;
+}
+
+p.text-footer{
+    color: #fff;
+}
+
+/* Scroll */
+
+::-webkit-scrollbar{
+    width: 0.7em;
+    height: 0.5em;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 119, 20, .6);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent ;
 }
